@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulare/forms</title>
+    </head>
+
+    <body>
+        <form>
+           <label for="nume">Nume*:</label>
+            <input type="text" name="nume" required placeholder="Nume">
+            <br>
+            <br>
+            <label for="prenume">Prenume*:</label>
+            <input type="text" name="prenume" required placeholder="Prenume">
+            <br>
+            <br>
+            <label for="varsta">Varsta*:</label>
+            <input type="number" name="varsta" min="18" max="100"required>
+            <br>
+            <br>
+            <input type="submit" value="tine te rog"> 
+            <br>
+            <br>
+            <label for="experienta">Experienta minima</label>
+            <input type="range" value="experienta minima" name="experienta">
+            <br>
+            <br>
+
+            <label for="start">Start date:</label>
+            <input type="date" id="start" name="trip-start" 
+            value="2018-07-22" min="2018-01-01" max="2018-12-31">
+
+            <label for="week">Week:</label>
+            <input type="week" id="week" name="trip-week" >
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="trip-time" >
+
+            <br>
+            <br>
+            <label for="chck">Cel limbaj de programare preferi?</label>
+            <br>
+            <br>
+            <input type="radio" name="chck" value="java"> Java<br>
+            <input type="radio" name="chck" value="net">Net<br>
+            <input type="radio" name="chck" value="javascript"> Javascript<br>
+
+
+         </form>
+    </body>
+</html>     
