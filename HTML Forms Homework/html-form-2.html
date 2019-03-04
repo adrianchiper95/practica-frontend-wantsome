@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-2</title>
+    </head>
+
+    <body>
+        <h1>Travel reservation form</h1>
+        <h2>*Denotes mandatory</h2>
+
+
+    <form>
+
+    <label for="name">Full name*:</label><br>
+    <input type="text" name="name" required placeholder="FirstName LastName"><br>
+
+    <label for="email">Email address*:</label><br>
+    <input type="text" name="email" required placeholder="EMAIL_ADDRESS"><br>
+
+    <label for="package">Select Tour Package*:</label><br>
+    <select name="package" required>
+            <option value="goa">Goa</option>
+            <option value="dubai">Dubai</option>
+            <option value="roma">Roma</option>
+            <option value="usa">USA</option>
+            <option value="japan">Japan</option>
+            <option value=""></option>
+    </select><br>
+
+    <label for="date">Arrival date*:</label><br>
+    <input type="date" name="date" required><br>
+
+    <label for="persons">Number of persons*:</label><br>
+    <input type="number" name="persons" max="10" required placeholder="UNKNOWN_TYPE"><br>
+
+    <label for="avail">What would you want to avail?*</label><br>
+    <input type="checkbox" name="avail" required value="boarding">Boarding<br>
+
+    <input type="checkbox" name="avail" value="fooding">Fooding<br>
+    <input type="checkbox" name="avail" value="sightseeing">Sight seeing<br>
+
+    <label for="discount">Discount Coupon code:</label><br>
+    <input type="text" name="discount" required placeholder="UNKNOWN_TYPE"><br>
+    
+    <label for="terms">Terms and conditions*</label><br>
+    <input type="radio" name="terms" value="iagree">I agree
+    <input type="radio" name="terms" value="idisagree">I disagree<br>
+    <input type="submit" value="Complete reservation">
+
+
+    </form>    
+
+
+
+
+
+    </body>
+</html>    
