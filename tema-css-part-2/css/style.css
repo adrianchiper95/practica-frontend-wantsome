@@ -1,0 +1,43 @@
+li {
+    color: green;
+}
+
+ul li:nth-child(3) {
+    background-color: aqua;
+}
+
+ul li:first-child {
+    border-top: 1px solid green;
+}
+
+ul li:last-child {
+    border-bottom: 5px dotted blue;
+}
+
+
+
+div [placeholder*="first"] {
+    color: green;
+}
+
+div [placeholder*="last"] {
+    color: blue;
+}
+
+div [type*="text"]:focus {
+    background-color: grey;
+}
+
+div [placeholder*="password"] {
+    color: transparent;
+}
+
+div [type*="email"]:focus {
+    background: gold;
+    color: pink;
+
+}
+
+div [type*="submit"]:hover {
+    color: red;
+}
