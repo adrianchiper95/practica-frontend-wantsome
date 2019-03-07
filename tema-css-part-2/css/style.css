@@ -13,9 +13,17 @@ ul li:first-child {
 ul li:last-child {
     border-bottom: 5px dotted blue;
 }
+ ul li:nth-child(3) a , ul li:nth-child(5) a  {
+    color: red;
+}
+ 
+ul li:nth-child(5) a:hover {
+    color: gray;
+}
 
-
-
+li:nth-child(2) , li:nth-child(5) {
+    list-style-type: none;
+}
 div [placeholder*="first"] {
     color: green;
 }
