@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form-1</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    </head>
+
+    <body>
+    <form>
+        <label for="nume" class="required">Nume*:</label>
+        <input type="text" name="nume" required value="Popescu">
+        <br>
+        <br>
+        <label for="prenume" class="required">Prenume*:</label>
+        <input type="text" name="prenume" required value="Ionescu">
+        <br>
+        <br>
+        <label for="sex">Sex:</label><br>
+        <input type="radio" name="sex" value="masculin">Masculin<br>
+        <input type="radio" name="sex" value="feminin">Feminin<br>
+        <br>
+        <br>
+        <label for="varsta">Varsta:</label>
+        <input type="number" name="varsta" min="18" max="85">
+        <br>
+        <br>
+        <label for="tara">Tara:</label>
+        <input type="text" name="tara" value="Romania">
+        <br>
+        <br>
+        <label for="oras">Oras:</label>
+        <input type="text" name="oras">
+        <br>
+        <br>
+        <label for="adresa">Adresa:</label>
+        <input type="text" name="adresa">
+        <br>
+        <br>
+        <label for="codp">Cod Postal:</label>
+        <input type="number" name="codp" maxlength="6">
+        <br>
+        <br>
+        <label for="email" class="required">E-mail*:</label>
+        <input type="text" name="email" required placeholder="E-mail">
+        <br>
+        <br>
+        <label for="mesaj">Mesaj:</label><br>
+            <textarea maxlength="256" name="mesaj">Comenteaza</textarea>
+        <br>
+        <br>
+        <label for="cv">Atasati CV:</label>
+        <input type="file" name="cv">
+        <br>
+        <br>
+        <p>*-Obligatoriu</p>
+        <input type="submit" value="Trimite">
+        <input type="reset">
+    </form>           
+
+
+
+
+
+
+    </body>
+</html>
+
+
+
