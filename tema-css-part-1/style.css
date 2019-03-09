@@ -1,0 +1,23 @@
+* {
+    font-family: 'Sniglet', cursive;
+}
+.style-border {
+border: 1px solid black;
+}
+
+.style-border a {
+    color: green;
+}
+
+li a {
+    color: red;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#text-style {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
