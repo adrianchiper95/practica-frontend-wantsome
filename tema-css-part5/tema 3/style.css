@@ -1,0 +1,67 @@
+
+body {
+    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 37.5em;
+    grid-gap: 1em;
+    
+}
+
+.box1 {
+    width: 18.75em;
+    height: 12.5em;
+    background-image: url(https://www.tasteofhome.com/wp-content/uploads/2017/10/Ham-n-Cheese-Biscuit-Stacks_EXPS_HC17_31947_D10_19_8b-696x696.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    width: 18.75em;
+    height: 12.5em;
+    background-image: url(https://blog.kingarthurflour.com/wp-content/uploads/2015/08/6-great-breads-900x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    width: 18.75em;
+    height: 12.5em;
+    background-image: url(https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/1536956184/arbys-beer-cheese-FT-BLOG0918.jpg?itok=rkFU72q8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box4 {
+    width: 18.75em;
+    height: 12.5em;
+    background-image: url(https://elytis-hospital.ro/wp-content/uploads/2017/06/mancare-fast-food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    color: white;
+    padding: 1em;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 9.375em;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}

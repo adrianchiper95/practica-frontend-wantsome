@@ -1,0 +1,62 @@
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    
+    grid-template-areas:
+    "box1 box2 box3"
+    "box4 box2 box3"
+    "box5 box5 box3"
+    "box5 box5 box3";
+}
+
+.vertical {
+    background-color: #00D2B2;
+    color: white;
+    padding: 1em;
+    grid-area: box1;
+    
+}
+
+.middle {
+    background-color: #2D70E0;
+    color: white;
+    padding: 1em;
+    grid-area: box2;
+    
+}
+
+.image  {
+    background-image: url("https://store-images.s-microsoft.com/image/apps.22837.13894648430398523.c8d15fc1-70a0-4c15-aeab-56b9056ffa57.b180538c-f386-4a5a-ac50-8f221a202e90?mode=scale&q=90&h=300&w=300");
+    width: 640px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.tall {
+    background-color: #06D45A;
+    color: white;
+    padding: 1em;
+    grid-area: box3;
+
+}
+
+.tiles {
+    background-color: #FFDE4A;
+    color: white;
+    padding: 1em;
+    grid-area: box4;
+    
+}
+
+.wide {
+    background-color: #FE345C;
+    color: white;
+    padding: 1em;
+    grid-area: box5;
+    
+}
+
