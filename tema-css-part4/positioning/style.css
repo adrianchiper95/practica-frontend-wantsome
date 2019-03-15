@@ -1,0 +1,40 @@
+span {
+    color: crimson;
+}
+li {
+    color: black;
+}
+nav {
+    border: 2px solid crimson;
+    max-width: 150px;
+}
+
+section {
+    border: 2px solid gold;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid aquamarine;
+    position: relative;
+    height: 202px;
+    
+}
+
+footer {
+    border: 2px solid green;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+    
+
+}
+
+.section {
+    position: absolute;
+    top: 0;
+    left: 154px;
+    
+    
+}
