@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    /*padding: 50px 150px;*/
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+#logo-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#logo, nav {
+   padding-top: 30px;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.showcase {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.showcase h4 {
+    padding-top: 20px;
+}
+
+#services {
+    padding: 80px 0px 80px;
+}
+
+#services .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item {
+    padding-right: 50px;
+    padding-left:  50px;
+   
+}
+
+.vertical-line {
+    border-left: 1px solid gray;
+}
+
+.title-profile {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+}
+
+#people-profile {
+    background-color: #1283C9;
+}
+
+#people-profile .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 100px 100px;
+}
+
+.person-profile {
+    padding: 70px 70px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    text-align: center;
+}
+
+.person-profile img {
+    border-radius: 50%;
+}
+
+.person-profile h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#articles .container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+article {
+    max-width: 576px;
+}
+
+article h2, article p {
+    padding: 20px 0px 20px;
+}
+
+.title-article {
+    padding-top: 80px;
+    color: #1283C9;
+    text-align: center;
+}
+
+.title-article p {
+    color: gray;
+}
+
+#articles {
+    padding-bottom: 80px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-top: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.font-icons {
+    color: #1283C9;
+}
+
+i {
+    padding-left: 10px; 
+}
+
+p {
+    line-height: 2;
+}
+
+.item h2 {
+    color: #1283C9;
+}
+
+#articles h2 {
+    color: #1283C9;
+}
+
+button {
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #1283C9;
+    padding: 15px 30px;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
